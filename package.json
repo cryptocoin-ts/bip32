@@ -1,0 +1,36 @@
+{
+  "name": "bip32-ts",
+  "version": "0.0.0",
+  "description": "bip32 implementation by TypeScript for Node.js",
+  "main": "dist/index.js",
+  "types": "types/*.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist types && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryptocoin-ts/bip32.git"
+  },
+  "keywords": [],
+  "author": "lishude",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cryptocoin-ts/bip32/issues"
+  },
+  "homepage": "https://github.com/cryptocoin-ts/bip32#readme",
+  "devDependencies": {
+    "@types/node": "^9.6.6",
+    "ts-node": "^6.0.0",
+    "tslint": "^5.9.1",
+    "tslint-config-prettier": "^1.12.0",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "@types/ecurve": "^1.0.0",
+    "bs58": "^4.0.1",
+    "bs58check": "^2.1.1",
+    "decimal.js": "^10.0.0",
+    "ecurve": "^1.0.6"
+  }
+}
